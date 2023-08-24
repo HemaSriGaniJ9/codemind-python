@@ -1,3 +1,2 @@
 a=int(input())
-b=a//10
-print(f"{b}")
+print(f"{a//10}")
