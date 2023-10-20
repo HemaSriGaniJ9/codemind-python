@@ -1,11 +1,11 @@
 a = int(input())
-x = list(map(int,input().split()))
-k=[]
-for i in x:
+k = list(map(int,input().split()))
+l = []
+for i in k:
     if i%2!=0:
-        k.append(i)
-for i in x:
+        l.append(i)
+for i in k:
     if i%2==0:
-        k.append(i)
-for j in k:
+        l.append(i)
+for j in l:
     print(j,end=" ")
