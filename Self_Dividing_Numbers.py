@@ -10,4 +10,5 @@ for i in range(a,b+1):
             break
         k=k//10
     else:
-        print(i,end=' ')
+            print(i,end=" ")
+        
