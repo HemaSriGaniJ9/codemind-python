@@ -1,14 +1,14 @@
-n = int(input())
-k=str(n)
+a = int(input())
+k=str(a)
 d=len(k)
-q=n
+q=a
 s=0
-while n!=0:
-    r=n%10
+while a!=0:
+    r=a%10
     s=s+(r**d)
-    n=n//10
+    a=a//10
     d=d-1
-if (s==q):
+if(s==q):
     print("True")
 else:
     print("False")
