@@ -1,11 +1,11 @@
 a = int(input())
-t = a 
+n=a
 s=0
-while t!=0:
-    r=t%10
+while a>0:
+    r=a%10
     s=s*10+r
-    t=t//10
-if a==s:
+    a=a//10
+if(n==s):
     print("True")
 else:
     print("False")
